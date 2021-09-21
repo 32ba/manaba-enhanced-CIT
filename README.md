@@ -1,17 +1,18 @@
-# manaba Enhanced for Tsukuba
+# manaba Enhanced for CIT
 
 Make your manaba a little bit more comfortable.
 
-Get it via [Chrome Web Store](https://chrome.google.com/webstore/detail/manaba-enhanced-for-tsuku/fldngcbchlbfgbccilklplmhljilhfch).
+このソフトウェアは「manaba Enhanced for Tsukuba」を千葉工業大学向けにリビルドしたものです。
+mkobayashime氏に感謝いたします。
 
-**For students of University of Tsukuba.**
+フォーク元: https://github.com/mkobayashime/manaba-enhanced
 
-![Screenshot](./bin/dist/thumbnail1.png)
+**For students of Chiba Institute of Technology.**
 
 ## Supported Univ. / 対応大学
-- University of Tsukuba / 筑波大学
+- Chiba Institute of Technology / 千葉工業大学
 
-If you want to use it in your univ., please follow the [instruction](https://github.com/mkobayashime/manaba-enhanced#how-to-add-support-for-your-univ) below. 
+If you want to use it in your univ., please follow the [instruction](https://github.com/32ba/manaba-enhanced-CIT#how-to-add-support-for-your-univ) below. 
 
 ## Features
 
@@ -25,9 +26,12 @@ If you want to use it in your univ., please follow the [instruction](https://git
 
 1. Highlight the publication deadline of course newses and course contents.
 
-1. Enable filtering of courses in mypage by terms/modules.
-
 1. Remove the confirmation dialogue when you click links.
+
+## Changes from the original
+The following functions have been removed because they do not exist in Chiba Institute of Technology's manaba.
+
+1. Enable filtering of courses in mypage by terms/modules.
 
 1. Add a context menu to open the attend code in Respon.
 
@@ -43,19 +47,22 @@ If you want to use it in your univ., please follow the [instruction](https://git
 
 1. コースニュースやコンテンツの公開期限を強調表示します
 
-1. マイページのコースをモジュールでフィルターする機能を追加します
-
 1. 外部リンクをクリックした際の確認ダイアログを取り除きます
+
+## Fork元からの変更点
+以下の機能が千葉工業大学のmanabaには存在しない為、削除されています。
 
 1. 出席コードをResponで開く右クリックメニューを追加します
 
+1. マイページのコースをモジュールでフィルターする機能を追加します
+
 ## Disclaimer / 免責事項
 
-This is an unofficial software and has nothing to do with the administration of the University of Tsukuba.
+This is an unofficial software and has nothing to do with the administration of the Chiba Institute of Technology.
 
 We will not be held responsible for any damages and troubles caused by this software.
 
-これは大学非公式のソフトウェアであり、筑波大学とは無関係です
+これは大学非公式のソフトウェアであり、千葉工業大学とは無関係です
 
 私達はこのソフトウェアを利用したことによるいかなる損害、トラブルに対する責任を負いません
 

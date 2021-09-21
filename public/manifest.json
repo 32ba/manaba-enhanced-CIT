@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "manaba Enhanced for Tsukuba",
+  "name": "manaba Enhanced for CIT",
   "version": "2.7.2",
   "description": "Make your manaba a little bit more comfortable",
   "icons": {
@@ -17,17 +17,9 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://manaba.tsukuba.ac.jp/*"],
+      "matches": ["https://cit.manaba.jp/*"],
       "run_at": "document_start",
       "js": ["contentScript.js"]
     }
-  ],
-  "commands": {
-    "manaba-enhanced:open-in-respon": {
-      "suggested_key": {
-        "default": "Alt+R"
-      },
-      "description": "Open selected Respon code in Respon"
-    }
-  }
+  ]
 }

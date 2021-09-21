@@ -18,10 +18,10 @@ window.onload = () => {
 
       switch (queryEvent) {
         case "install":
-          noticeDom.innerText = `Thanks for installing manaba Enhanced version ${versionNum}`
+          noticeDom.innerText = `Thanks for installing manaba Enhanced for CIT version ${versionNum}`
           break
         case "update":
-          noticeDom.innerText = `manaba Enhanced is updated for version ${versionNum}`
+          noticeDom.innerText = `manaba Enhanced for CIT is updated for version ${versionNum}`
           break
       }
     }
